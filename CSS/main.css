@@ -36,19 +36,18 @@ main {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 0 15px rgba(0, 56, 255, 0.3);
+    display: inline-block;
+    text-decoration: none;
 }
 
 .cta-button:hover {
     background-color: #002ed4;
     box-shadow: 0 0 20px rgba(0, 56, 255, 0.5);
+    transform: translateY(-2px);
 }
 
 .decorative-v img{
     width: 100%;
-
-
-   
-    
 }
 
 @media (max-width: 768px) {
