@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Sora", sans-serif;
+}
+
+:root {
+    --color-links: #E6E6E6;
+    --color-background: #161414;
+    --color-primary: #0038FF;
+    --color-text: #FFFFFF;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        radial-gradient(circle at 20% 35%, rgba(0, 56, 255, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 60%, rgba(0, 56, 255, 0.1) 0%, transparent 40%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+#links-nav, main {
+    position: relative;
+    z-index: 1;
+}

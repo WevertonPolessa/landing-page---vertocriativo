@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verto Criativo</title>
+    <link rel="stylesheet" href="CSS/config-global.css">
+    <link rel="stylesheet" href="CSS/links.css">
+    <link rel="stylesheet" href="CSS/main.css">
+
+</head>
+<body>
+
+    <div id="links-nav">
+        <div id="logo-vertocriativo">
+            <img src="./ASSENTS/logo-verto 1.png" alt="Logo Verto Criativo">
+        </div>
+
+
+        <div id="nav">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="">Projetos</a></li>
+                <li><a href="">Contatos</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <div class="main-content">
+            <h1>Potencializamos o seu negócio com estratégia e inovação</h1>
+            <p>Nosso site está em construção, mas você pode clicar no link abaixo e solicitar um orçamento</p>
+            <button class="cta-button">Solicitar Orçamento</button>
+        </div>
+        <div class="decorative-v">
+            <img src="./ASSENTS/logoV-vertocriativo 1.svg" alt="">
+        </div>
+    </main>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
