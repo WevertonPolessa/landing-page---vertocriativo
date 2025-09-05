@@ -22,7 +22,8 @@ body {
     position: relative;
 }
 
-body::before {
+
+/*body::before {
     content: '';
     position: fixed;
     top: 0;
@@ -34,7 +35,8 @@ body::before {
         radial-gradient(circle at 80% 60%, rgba(0, 56, 255, 0.1) 0%, transparent 40%);
     pointer-events: none;
     z-index: 0;
-}
+}*/
+
 
 #links-nav, main {
     position: relative;
