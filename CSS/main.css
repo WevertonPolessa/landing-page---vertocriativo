@@ -9,6 +9,7 @@ main {
 .main-content {
     max-width: 600px;
     z-index: 1;
+    margin-top: 90px;
 }
 
 .main-content h1 {
@@ -16,7 +17,7 @@ main {
     font-weight: 700;
     margin-bottom: 24px;
     line-height: 1.2;
-    margin-top: 30px;
+    
 }
 
 .main-content p {
@@ -60,6 +61,7 @@ main {
     .main-content {
         max-width: 100%;
         padding: 40px 0;
+        margin-top: 15px;
     }
 
     .main-content h1 {
